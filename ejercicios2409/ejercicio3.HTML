@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        
+
+        var a;
+        var b;
+        var c;
+
+        function square(x){
+            return x*x 
+        }
+
+        function hypotenuse(a, b) {
+            return Math.sqrt(square(a) + square(b));
+        }
+  
+        function perimetro(a,b,c){
+            return a+b+c;
+        }
+
+       function area(a,b){
+            return (a*b)/2;
+        }
+
+      
+    document.write("<br/><br/><p><a href=\"../index.html\">atras</a></p>");
+        
+
+        function perdirDatos(){
+            a = Number(prompt("ingresa la base master"))
+            b= Number(prompt("Ingresa la altura master"))
+
+            resultado()
+        }
+
+        //-->
+        </script>
+    </head>
+    <body>
+        <h3>Press to start</h3> 
+         <input type="button" onclick="perdirDatos()" value="Call Function"> 
+     </body>
+</html>
